@@ -37,7 +37,7 @@
       } else {
         $('.main').removeClass(main_classes).addClass('col-sm-12');
         $('.sidebar-menu').css('left', '-50%').data('hidden', true);
-        $('.django-admin-title').fadeIn();
+        $('.django-admin-title').show();
         $.cookie('hidden_sidebar_menu', true, {path: '/'});
       }
     };
