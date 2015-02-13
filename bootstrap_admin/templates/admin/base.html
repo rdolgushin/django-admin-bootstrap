@@ -24,13 +24,6 @@
   <script type="text/javascript" src="{% static "admin/js/jquery.js" %}"></script>
   <script type="text/javascript" src="{% static "admin/js/jquery.init.js" %}"></script>
 {% endblock jquery %}
-  <script>
-    (function ($) {
-      $(document).ready(function(){
-        $("#overlay").delay(600).fadeOut(500);
-      });
-    })(django.jQuery);
-  </script>
   <script type="text/javascript">window.__admin_media_prefix__ = "{% filter escapejs %}{% static "admin/" %}{% endfilter %}";</script>
   <script type="text/javascript">window.__admin_utc_offset__ = "{% filter escapejs %}{% now "Z" %}{% endfilter %}";</script>
 
@@ -46,14 +39,6 @@
 {% load i18n %}
 
 <body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}{% if not is_displaying_menu %} no-sidebar{% endif %}">
-
-  <div id="overlay">
-    <div class="spinner">
-      <div class="bounce1"></div>
-      <div class="bounce2"></div>
-      <div class="bounce3"></div>
-    </div>
-  </div>
 
   <div class="container-fluid">
     <div class="row">
