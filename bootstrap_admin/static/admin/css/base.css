@@ -120,7 +120,6 @@ body {
 .sidebar-menu .nav-sidebar {
   margin-right: -21px;
   margin-left: -20px;
-  transition: all .3s ease-in-out;
 }
 .sidebar-menu .nav-sidebar a {
   color: #ddd;
@@ -128,7 +127,6 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   text-overflow: ellipsis;
-  transition: color .3s ease-in-out;
   white-space: nowrap;
 }
 .sidebar-menu .nav-sidebar a:hover,
@@ -141,7 +139,6 @@ body {
   color: #fff;
   height: 43px;
   padding: 12px 5px 12px 20px;
-  transition: border 0.4s ease-in-out 0s, color 0.3s ease-in-out 0s, background-color 0.4s ease-in-out 0s;
 }
 .sidebar-menu .nav-sidebar a:hover {
   background: #333;
@@ -200,7 +197,6 @@ body {
   margin: 2px 0;
   padding: 3px;
   position: absolute;
-  transition: background-color 0.3s ease-in-out 0s, border 0.3s ease-in-out 0s;
   width: 31px;
 }
 .show-hide-sidebar-menu:hover {
@@ -218,9 +214,6 @@ body {
 }
 .hidden-menu {
   left: -25%;
-}
-.sidebar-menu {
-  transition: left .3s ease-in-out;
 }
 
 /*
@@ -257,7 +250,6 @@ body {
   position: absolute;
   right: 15px;
   top: -1px;
-  transition: opacity 0.3s ease-in-out 0s;
 }
 #user-tools .btn {
   border-bottom: medium none;
