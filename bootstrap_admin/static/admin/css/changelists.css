@@ -104,6 +104,9 @@
   height: 42px;
   padding-left: 15px;
   text-overflow: ellipsis;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ccc;
 }
 #changelist-search .input-group-btn .btn {
   border-radius: 0;
