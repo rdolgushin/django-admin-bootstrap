@@ -316,9 +316,11 @@ fieldset.module > h2:first-child {
   max-width: 200px;
   overflow: hidden;
   word-wrap: break-word;
+  padding: 0 !important;
 }
 .inline-group td.original p {
   margin: 0;
+  display: none;
 }
 .inline-group .tabular .form-row {
   position: unset;
