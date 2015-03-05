@@ -5,9 +5,10 @@ Differences from original django-admin-bootstrap
 ------------------------------------------------
 
 - No annoying spinner overlay
-- Hidden-but-jumping-on-every-page-reload sidebar is fixed
 - No CSS transitions
 - No default branding
+- Hidden-but-jumping-on-every-page-reload sidebar is fixed
+- Other small fixes
 
 Screenshots
 -----------
