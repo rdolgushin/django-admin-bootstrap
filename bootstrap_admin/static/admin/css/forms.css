@@ -315,7 +315,7 @@ fieldset.module > h2:first-child {
 .inline-group .tabular td.original {
   max-width: 200px;
   overflow: hidden;
-  word-wrap: break-word;;
+  word-wrap: break-word;
 }
 .inline-group td.original p {
   margin: 0;
