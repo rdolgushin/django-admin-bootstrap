@@ -37,7 +37,7 @@
   padding-top: 20px;
 }
 .form-row.field-box {
-  clear: unset;
+  clear: none;
 }
 
 .list-group {
@@ -112,14 +112,18 @@
   list-style: none;
 }
 
-.form-fields .collapse {
+#content-main .form-fields .collapse {
   display: block;
+  visibility: visible;
 }
 .form-fields .collapsed .form-row {
   display: none;
 }
 .form-fields h2 {
   font-size: 18px;
+}
+fieldset.module > h2:first-child {
+    margin-top: 0;
 }
 .form-fields .collapse h2 {
   background: #f9f9f9;
@@ -215,7 +219,7 @@
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
-  position: unset;
+  position: initial;
 }
 .selector.stacked .selector-chooser > li {
   display: inline-block;
@@ -432,6 +436,7 @@ p.datetime span.datetimeshortcuts {
 .calendarbox caption {
   margin-top: -17px;
   padding: 0 45px;
+  text-align: center;
 }
 .calendarbox .calendarnav-next {
   float: right;
