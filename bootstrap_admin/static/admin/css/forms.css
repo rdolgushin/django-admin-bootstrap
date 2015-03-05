@@ -240,7 +240,7 @@ fieldset.module > h2:first-child {
 .inline-group h2 {
   background: #f5f5f5;
   margin: 0 -15px;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 .inline-group h3 {
   background: #d9edf7;
@@ -305,7 +305,7 @@ fieldset.module > h2:first-child {
 }
 .inline-group .tabular tr td:first-child,
 .inline-group .tabular tr th:first-child {
-  padding-left: 15px;
+  padding-left: 11px;
 }
 .inline-group .tabular thead th {
   background: #d9edf7;
