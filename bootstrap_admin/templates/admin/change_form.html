@@ -118,7 +118,8 @@
                     </li>
                     {% if has_absolute_url %}
                       <li class="btn-group">
-                        <a href="{{ absolute_url }}" class="btn btn-default viewsitelink" title="{% trans "View on site" %}">
+                        <a href="{{ absolute_url }}" target="_blank"
+                          class="btn btn-default viewsitelink" title="{% trans "View on site" %}">
                           <span class="glyphicon glyphicon-new-window"></span>
                           <span class="text">{% trans "View on site" %}</span>
                         </a>

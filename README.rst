@@ -8,6 +8,7 @@ Differences from original django-admin-bootstrap
 - No CSS transitions
 - No default branding
 - Hidden-but-jumping-on-every-page-reload sidebar is fixed
+- "View on site" link opens in new window
 - Other small fixes and improvements
 
 Screenshots
